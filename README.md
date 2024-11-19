@@ -1,6 +1,6 @@
 # skip-sg-survey
 
-![skip-sg-survey](image-path-or-URL)
+![skip-sg-survey](icon.png)
 
 This Chrome extension is designed to skip the faculty evaluation survey in Linways. It automatically selects the first radio button (Option 1) for every question, saving time and effort during the survey process. The extension is built using JavaScript.
 
