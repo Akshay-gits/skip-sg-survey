@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SKIP-SG-SURVEY</title>
+    <style>
+      body {
+        width: 250px;
+        height: 120px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 10px;
+      }
+
+      #toggleButton {
+        width: 100px;
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #4CAF50; /* Green for "ON" state */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+
+      #toggleButton.off {
+        background-color: #f44336; /* Red for "OFF" state */
+      }
+
+      #status {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="toggleButton" class="on">ON</button>
+    <div id="status">Extension is ON</div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
